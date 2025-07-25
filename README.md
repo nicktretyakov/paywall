@@ -1,20 +1,3 @@
-# Advanced Paywall System in Rust
-
-advanced-paywall-rust/
-├── src/
-│   ├── main.rs          # Application entry point, initializes components
-│   ├── config.rs        # Configuration loading (from .env)
-│   ├── models.rs        # Shared data structures (User, Content, Subscription, etc.)
-│   ├── auth.rs          # Authentication routes and JWT middleware
-│   ├── paywall.rs       # Paywall logic, content access, subscription purchase
-│   ├── db.rs            # Database interaction functions
-│   └── ml.rs            # Machine Learning model and feature extraction
-├── Cargo.toml           # Rust project dependencies and metadata
-├── Cargo.lock           # Locked versions of dependencies
-├── .env                 # Environment variables (NOT COMMITTED)
-├── .gitignore           # Files/folders to ignore in Git
-└── README.md            # This file
-
 ## Features
 
 - **User Authentication & Authorization**: Secure user registration and login using JWT tokens. Middleware ensures protected routes are accessed only by authenticated users.
